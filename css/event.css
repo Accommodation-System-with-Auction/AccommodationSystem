@@ -1,0 +1,41 @@
+.header{
+    height:97px;
+}
+ 
+.body{
+    height:1080px;
+}
+    .body>.container{
+        display:flex;
+    }
+
+    .aside{
+        width: 279px;
+        height:253px;
+        border:1px solid #707070;
+        margin-top:109px;
+        margin-left:382px;
+        font-size:20px;
+    }
+
+    .main{
+        width:890;
+        
+    }
+    .content-container{
+        width:1024px;
+      }
+      
+      .table{
+        border-collapse:collapse;
+        width:70%
+      }
+      tr, th, td {
+          border: 1px solid lightgray;
+        }
+      th{
+        background-color:#EAEAEA;
+      }
+      .tb-inner-div{
+        height:200px;
+      }
