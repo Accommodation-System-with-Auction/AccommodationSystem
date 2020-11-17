@@ -1,6 +1,27 @@
-.header{
+/* .header{
     height:97px;
+} */
+
+/* .sec_header{
+  background: #5f0081;
 }
+.header{
+  display: flex;
+  background: #5f0081;
+  height: 72px;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header_h1{
+  flex-basis: 50px;
+  height:70%;
+  background: url("../../../틈로고.png") 0 0 no-repeat;
+  text-indent: -9999px;
+  background-size: 50px auto;
+} */
+
  
 .body{
     height:1080px;
