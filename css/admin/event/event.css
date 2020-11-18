@@ -22,41 +22,88 @@
   background-size: 50px auto;
 } */
 
+.d-none{
+  display: none;
+}
+
  
 .body{
     height:1080px;
+    background-color:pink;
 }
-    .body>.container{
-        display:flex;
-    }
+.admin-container {
+  width: 100%;
+  min-height: 100px;
+  --background: orange;
+  display: flex;
+}
 
-    .aside{
-        width: 279px;
-        height:253px;
-        border:1px solid #707070;
-        margin-top:109px;
-        margin-left:382px;
-        font-size:20px;
-    }
+  .aside {
+      --background: palegreen;
+      width:15%;
+      height: 560px;
+      text-align: center;
+      font-size: 25px;
+      border-right: 1px solid gray;
+  }
+  .aside>h1{
+      width: 100%;
+      height: 70px;
+      background: rgb(235, 235, 235);  
+      font-weight: bold;
+      border-bottom: 1px solid gray;
+  }
+  .aside>ul>li{
+      width: 100%;
+      height: 70px;
+      border-bottom: 1px solid gray;
+  
+  }
+  .aside>ul>li a{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+  }
 
-    .main{
-        width:890;
+  
+  .main {
+      width: 85%;
+      min-height: 100px;
+      --background: rgb(107, 197, 224);
+      display:flex;
+      flex-direction: column;
+  }
+    .detail-main{
+        width:890px;
+        
+        background-color:purple;
         
     }
-    .content-container{
-        width:1024px;
-      }
-      
-      .table{
-        border-collapse:collapse;
-        width:70%
-      }
-      tr, th, td {
-          border: 1px solid lightgray;
-        }
-      th{
-        background-color:#EAEAEA;
-      }
-      .tb-inner-div{
-        height:200px;
-      }
+   /*******************************/
+    .quick-menu{
+      width: 100%;
+      height: 100px;
+      border: 1px solid #000000;
+  }
+  .quick-menu-list{
+      display: flex;
+      flex-direction: row;
+  }
+  .quick-menu-list li{
+      flex: 1 0 300px;
+      height: 100px;
+      border: 1px solid #000000;
+      text-align: center;
+      font-size: 30px;
+     
+  }
+  .quick-menu-list li:hover{
+      color: red;
+      background: rgba(248, 221, 255, 0.726);
+  }
+  .quick-menu-list li a{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+  }
+  

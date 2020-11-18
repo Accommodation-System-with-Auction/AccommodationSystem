@@ -17,11 +17,7 @@
             </div>
             <div>
                 <ul class="main_menu">
-                    <li class="header_search"><input type="text"><a href=""><i class="fas fa-search"></i></a></li>
-                    <li><a href="">공지사항</a></li>
-                    <li><a href="">이벤트</a></li>
-                    <li><a href="">더보기</a></li>
-                    <li class="mypage"><a href="">로그인</a>
+                    <li class="mypage"><a href="">로그아웃</a>
                         <div class="mega_menu">
                             <ul>
                                 <li><a href="">submenu</a></li>
@@ -34,115 +30,124 @@
             </div>
         </header>
     </div>
-
-    <header class="header mobileHeader">
-        <div>
-            <a href=""><i class="fas fa-bars"></i></a>
-        </div>
-        <div class="header_h1">
-            <h1><a class="teum_logo" href="http://127.0.0.1:5500/main.html">틈</a></h1>
-        </div>
-        <div>
-            <a href=""><i class="fas fa-search"></i></a>
-        </div>
-    </header>
-
+    <section class="quick-menu">
+        <nav>
+            <h1 class="d-none">상단 네비</h1>
+            <ol class="quick-menu-list">
+                <li><a href="" herf="">업체관리</a></li>
+                <li><a href="" herf="">회원관리</a></li>
+                <li><a href="" herf="">프로모션관리</a></li>
+                <li><a href="" herf="">고객센터</a></li>
+            </ol>
+        </nav>
+    </section>
     <section>
-        <div>
-            <h1>이벤트 관리</h1>
-            <form>
-                <select>
-                    <option>이벤트 전체보기</option>
-                    <option>진행중인 이벤트</option>
-                    <option>종료된 이벤트</option>
-                </select>
-                <input type="submit" value="조회">
-            
-            </form>
-        </div>
-        <table border = 1>
-            <tr>
-                <td>선택</td>
-                <td>번호</td>
-                <td>제목</td>
-                <td>날짜</td>
-                <td>조회수</td>
-                <td>종료 여부</td>
-            </tr>
-           
-            <tr>
-                <td>
-                    <form>
-                        <input type="checkbox">
-                    </form>
-                </td>
-                <td>4</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>진행중</td>
-            </tr>
-            <tr>
-                <td>
-                    <form>
-                        <input type="checkbox">
-                    </form>
-                </td>
-                <td>3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>종료</td>
-            </tr>
-            <tr>
-                <td>
-                    <form>
-                        <input type="checkbox">
-                    </form>
-                </td>
-                <td>2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>종료</td>
-            </tr>
-          
-            <tr>
-                <td>
-                    <form>
-                        <input type="checkbox">
-                    </form>
-                </td>
-                <td>1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>종료</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <a href = "reg.html">등록</a>
-        <a href = "edit.html">수정</a>
-        <a href = "">삭제</a>
-    </div>
-        <div>
-            <h1>페이지 정보</h1>
-            <div>
-                1 / 4 pages
-            </div>
-        </div>
-        <div>
-            <h1>페이지 요청목록</h1>
-            <div>
-                이전
+        <div class="admin-container">
+            <aside id="aside" class="aside">
+                <h1>게시판</h1>
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                    <li><a href="">공지사항</a></li>
+                    <li><a href="">QNA</a></li>
                 </ul>
-                다음
-            </div>
+            </aside>
+            <main class="main">
+                <p>이벤트 관리</p>
+                <div>
+                    <form>
+                        <select>
+                            <option>이벤트 전체보기</option>
+                            <option>진행중인 이벤트</option>
+                            <option>종료된 이벤트</option>
+                        </select>
+                        <input type="submit" value="조회">
+                    
+                    </form>
+                </div>
+                <table border = 1>
+                    <tr>
+                        <td>선택</td>
+                        <td>번호</td>
+                        <td>제목</td>
+                        <td>날짜</td>
+                        <td>조회수</td>
+                        <td>종료 여부</td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>진행중</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>종료</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>종료</td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>종료</td>
+                    </tr>
+                </table>
+        
+                <div>
+                    <a href = "reg.html">등록</a>
+                    <a href = "edit.html">수정</a>
+                    <a href = "">삭제</a>
+                </div>
+                <div>
+                    <h1>페이지 정보</h1>
+                    <div>
+                        1 / 4 pages
+                    </div>
+                </div>
+                <div>
+                    <h1>페이지 요청목록</h1>
+                    <div>
+                        이전
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        다음
+                    </div>
+                </div>
+            </main>
         </div>
     </section>
 
